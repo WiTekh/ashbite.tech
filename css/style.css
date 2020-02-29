@@ -1,0 +1,37 @@
+body
+{
+    background-color: grey;
+    color: whitesmoke;
+}
+
+#upper_left 
+{
+    position: absolute;
+
+    top: 0%;
+    left: 0%;
+}
+
+#upper_right
+{
+    position: absolute;
+
+    top: 0%;
+    right: 0%;
+}
+
+#bottom_left
+{
+    position: absolute;
+
+    bottom: 0%;
+    left: 0%;
+}
+
+#bottom_right
+{
+    position: absolute;
+
+    bottom: 0%;
+    right: 0%;
+}

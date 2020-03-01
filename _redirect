@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://ozhavom.netlify.com/* http://ashbite.tech/:splat 301!ß

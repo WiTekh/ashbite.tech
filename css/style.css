@@ -4,34 +4,59 @@ body
     color: whitesmoke;
 }
 
-.upper_left 
+
+a:hover{color:rgb(194, 194, 194);}
+a:active{
+    background-color:rgb(68, 68, 139);
+}
+
+.button
 {
+    background-color: rgb(57, 57, 117);
+    border: none;
+    color: rgb(238, 238, 238);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+/*Image Position Gestion*/
+.upper_left {
     position: absolute;
 
     top: 0%;
-    left: 0%;
-}
-
-.upper_right
-{
+    left: 0%;}
+.upper_right{
     position: absolute;
 
     top: 0%;
-    right: 0%;
-}
-
-.bottom_left
-{
+    right: 0%;}
+.bottom_left{
     position: absolute;
 
     bottom: 0%;
-    left: 0%;
-}
-
-.bottom_right
-{
+    left: 0%;}
+.bottom_right{
     position: absolute;
 
     bottom: 0%;
-    right: 0%;
-}
+    right: 0%;}
+
+/*Font Gestion*/
+.rob{
+    font-family: Roboto, Arial, Helvetica, sans-serif;}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('/roboto/roboto-medium.woff2') format('woff2'),
+         url('/roboto/roboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/roboto/roboto-regular.woff2') format('woff2'),
+         url('/roboto/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}

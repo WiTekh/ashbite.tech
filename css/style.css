@@ -40,7 +40,7 @@ h1.title
 
 
 
-.center_button
+.center_content
 {
     display: flex; 
     justify-content: center;
@@ -100,6 +100,15 @@ a:active{
 .download:hover{color:rgb(255, 200, 90);}
 .download:active{
     background-color: green;
+}
+
+.photo
+{
+    margin-right: 65px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 7px;
+    box-shadow: 2px 0 rgb(85, 30, 0), 0 1px rgb(85, 30, 0);
 }
 
 /*Image Position Gestion*/

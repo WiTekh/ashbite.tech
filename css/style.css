@@ -2,12 +2,24 @@ body
 {
     background-color: rgb(7, 37, 16);
     color: whitesmoke;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-p
+p 
+{
+    margin-left: 10px;
+    text-justify: auto;
+}
+
+
+.title2
 {
     position: relative;
-    text-align: center;
+    text-align: left;
+    color: rgb(238, 238, 238);
+    font-size: 40px;
+    text-shadow: -2px 0 rgb(71, 38, 15), 0 2px rgb(71, 38, 15), 2px 0 rgb(71, 38, 15), 0 -2px rgb(71, 38, 15);
+    margin-left: 25px;
 }
 
 .title
@@ -25,6 +37,8 @@ h1.title
     font-size: 75px;
     text-shadow: -2px 0 rgb(71, 38, 15), 0 2px rgb(71, 38, 15), 2px 0 rgb(71, 38, 15), 0 -2px rgb(71, 38, 15)
 }
+
+
 
 .center_button
 {
@@ -68,6 +82,24 @@ a:active{
 
     top: 0%;
     right: 0%;
+}
+
+.download
+{
+    text-decoration: none !important;
+    background-color: rgb(88, 61, 26);
+    color: rgb(255, 255, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.download:hover{color:rgb(255, 200, 90);}
+.download:active{
+    background-color: green;
 }
 
 /*Image Position Gestion*/

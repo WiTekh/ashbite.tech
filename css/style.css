@@ -59,7 +59,7 @@ a:active{
 
 .button
 {
-    background-color: rgb(117, 89, 57);
+    background-color: rgb(39, 77, 53);
     border: none;
     color: rgb(238, 238, 238);
     padding: 15px 32px;
@@ -138,6 +138,78 @@ a:active{
 
     bottom: 0%;
     right: 0%;}
+
+/*Dropdown button*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 100px;
+    font-size: 32px;
+    border: none;
+    margin : 1px 550px;
+    }
+    
+.dropright {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 70px;
+    font-size: 32px;
+    border: none;
+    margin : 1px 1px 1px -500px;
+    
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #178f27;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin : -1px 550px;
+    }
+
+.rightdropcont {
+    display: none;
+    position: absolute;
+    background-color: #178f27;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin : -1px -500px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 55px;
+    text-decoration: none;
+    display: block;
+    }
+.rightdropcont a {
+    color: rgb(255, 255, 255);
+    padding: 12px 55px;
+    text-decoration: none;
+    display: block;
+    }
+
+.rightdropcont a:hover {background-color: rgb(4, 70, 29);}
+
+.dropdown:hover .rightdropcont {display: block;}
+
+.dropdown:hover .dropright {background-color: #005c04;}
+
+.dropdown-content a:hover {background-color: rgb(4, 70, 29);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #005c04;}
 
 /*Font Gestion*/
 .rob{
